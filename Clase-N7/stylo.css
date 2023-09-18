@@ -1,0 +1,50 @@
+body{
+    color:chartreuse;
+    font-size: 26px;
+
+}
+
+
+/* a:link{
+    background-color: blue;
+
+} */
+
+a:visited{
+    color:darkgreen;
+}
+
+div{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+/* div:hover{
+    color:crimson;
+    background-color: darkkhaki;
+} */
+
+div:active{
+    color:crimson;
+    background-color: darkkhaki;
+}
+
+
+.caja-texto{
+    border-radius: 20%;
+    font-size: 30px;
+}
+
+.caja-texto:focus{
+    background-color: aquamarine;
+}
+
+.cua:checked {
+    color: blueviolet;
+
+}
+
+.nuevo:checked{
+    background-color: aliceblue;
+}

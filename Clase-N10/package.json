@@ -1,0 +1,15 @@
+{
+  "name": "clase-n10",
+  "version": "1.0.0",
+  "description": "* PASO A PASO BOOTSTRAP \r <!doctype html>\r <html lang=\"en\">\r   <head>\r     <!-- Required meta tags -->\r     <meta charset=\"utf-8\">\r     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}

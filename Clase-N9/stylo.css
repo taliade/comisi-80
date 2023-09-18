@@ -1,0 +1,18 @@
+.grid-container{ /* Contenedor PAdre*/
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+    grid-template-rows: 300px 200px 300px;
+    border: 3px solid black;
+    gap:6px;
+}
+
+
+div{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+}
+/* media querie*/
+@media screen and (min-width: 768px) and (max-width:) {
+    
+}

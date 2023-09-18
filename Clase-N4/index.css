@@ -1,0 +1,44 @@
+*{
+    /* color:rgb(43, 214, 226); */
+    margin: 0;
+
+}
+/* CSS  Comentario  --  Hoja de estilo en cascada  */
+
+
+p{
+   
+    font-size: 55px;
+    text-align: center;
+}
+
+.frase{
+    color:deepskyblue;
+    font-size: 31px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#unico{
+    color:indigo;
+    font-size: 60px;
+}
+
+
+h3{
+    color:chocolate!important;
+}
+
+
+article + p h3{
+    color:aqua;
+    font-size: 22px;
+}
+
+.unaclase li{
+    color:brown;
+
+}
+
+h2 + p {
+    color:pink;
+}

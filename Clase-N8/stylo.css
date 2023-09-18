@@ -1,0 +1,50 @@
+body{
+    background: pink;
+}
+
+.selecciona__mascota{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+
+
+}
+.mascota{
+    width: 100px;
+    height: 100px;
+    background-color: fuchsia;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+
+
+.main-content{
+    
+    background-color: crimson;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    align-items: center;
+
+}
+
+.item-content{
+    
+    background-color: darkgreen;
+    flex-grow: 2;
+}
+
+.item-content-2{
+    
+    background-color: darkcyan;
+    flex-grow: 6;
+}
+
+.item-content-4{
+    flex: 1 2 200px;
+    background-color: bisque;
+}

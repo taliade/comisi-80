@@ -1,0 +1,44 @@
+a:hover{
+    background-color: darkorange;
+}
+
+/*
+a:link{
+    color:darkgreen;
+}
+
+a:visited{
+    color:blueviolet;
+} */
+
+a:active{
+    color:rgb(242, 61, 15)
+}
+
+
+div{
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10;
+}
+/* Etiqueta elemento padre o madre - llamo a hijos/as (p) y doy una condicion al primer hijo (first) y al ultimo (last)  */
+div p:last-child{
+    color: rgb(34, 34, 119);
+    background-color:rgb(187, 21, 49);
+}
+
+
+div p:first-child{
+    color:rgb(76, 135, 187);
+    background-color: rgb(223, 222, 229);
+}
+
+#medio{
+    color:burlywood;
+    background-color:aquamarine;
+}
+
+div p:nth-last-child(2){
+    color: blueviolet;
+    background-color: aquamarine;
+}

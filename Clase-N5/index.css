@@ -1,0 +1,33 @@
+/* Fuente de  NOTO SANS   */
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap');
+/* font-family: 'Noto Sans', sans-serif; */
+
+
+
+h1{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h2{
+    
+    font-size: 60px;
+    font-weight: 600;
+}
+
+p{
+    
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family:'Noto Serif';
+    src: url(./fuentes/Noto_Serif/static/NotoSerif-LightItalic.ttf);
+    font-weight: bold;
+    font-style:italic;
+}
+
+.parrafo{
+    font-family:'Noto Serif',sans-serif;
+    font-weight: bold;
+}

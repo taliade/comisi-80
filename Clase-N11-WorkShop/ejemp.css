@@ -1,0 +1,37 @@
+header{
+    background-color: aquamarine;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+    header{
+        background-color:red;
+    }
+    
+}
+
+
+@media screen and (640px <= width < 968px) {
+    footer{
+        background-color: crimson;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    header{
+        background-color:pink;
+    }
+    h1{
+        font-size: 360%;
+    }
+    
+}
+
+
+@media screen and (max-width: 1024px){
+    header{
+        background-color:purple;
+    }
+    
+}
