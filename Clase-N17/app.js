@@ -3,7 +3,7 @@
 
 alert("Hola Mundo!");
 
-const titulos = document.getElementsByClassName('display-2');
+const titulos = document.querySelector('h1');
 console.log(titulos);
 titulos.innerHTML='Desde el teclado te modfico ';
 
@@ -11,17 +11,17 @@ titulos.innerHTML='Desde el teclado te modfico ';
 // console.log(saludo);
 
 
-const titulo = document.getElementById('titles');
-console.log(titulo);
-titulo.innerHTML='Hola Mundo! desde archivo';
+// const titulo = document.getElementById('titles');
+// console.log(titulo);
+// titulo.innerHTML='Hola Mundo! desde archivo';
 
 // const titles = document.getElementById('titl');
 // console.log(titles);
 
 
-const textos =document.getElementById('description');
-console.log(textos);
-textos.innerHTML= ' Cambios sobre la marcha...';
+// const textos =document.getElementById('description');
+// console.log(textos);
+// textos.innerHTML= ' Cambios sobre la marcha...';
 
 // // // va a retornar un elemento por su id  document.getElementById('') 
 // // const titlee = document.getElementById('title');
@@ -39,17 +39,17 @@ textos.innerHTML= ' Cambios sobre la marcha...';
 
 // // //Si actualizo la pagina vuelvo como mi codigo 
 
-title.innerHTML = 'Curso Codo a Codo';
+// title.innerHTML = 'Curso Codo a Codo';
 
 
-const p = document.querySelector('p');
-p.innerHTML = ' Hola Cambios de Etiqueta p'; 
+// const p = document.querySelector('p');
+// p.innerHTML = ' Hola Cambios de Etiqueta p'; 
 
 
-const descripciones = document.getElementsByTagName('p');
-console.log(descripciones);
+// const descripciones = document.getElementsByTagName('p');
+// console.log(descripciones);
 
-descripciones.innerHTML='Todas la etiquetas p ';
+// descripciones.innerHTML='Todas la etiquetas p ';
 
 // // //Por clase 
 
@@ -58,22 +58,22 @@ const itemss = document.getElementsByClassName('list-group-item');  //esta class
  console.log(itemss); //nos va a mostrar los elementos con este nombre de clase
 // // // //ahora vamos a iterar 
 
- for (var i = 0; i < itemss.length; i++){
-     let element = itemss[i]; //Array indice
-   console.log(element); //linea 45 de console
- }
+//  for (var i = 0; i < itemss.length; i++){
+//      let element = itemss[i]; //Array indice
+//    console.log(element); //linea 45 de console
+//  }
 
 
 
 // // //cada elemento pose un atributo tagName llamar a la etiqueta 
- const items = document.getElementsByTagName('li');
-console.log(items); 
- for (var i = 0; i < items.length; i++){
-    if(i % 2 === 0){ 
-    let element = items[i];
-       element.style.color = "red";
-    }
- }
+//  const items = document.getElementsByTagName('li');
+// console.log(items); 
+//  for (var i = 0; i < items.length; i++){
+//     if(i % 2 === 0){ 
+//     let element = items[i];
+//        element.style.color = "red";
+//     }
+//  }
    
 //    console.log(items);
 // // // } 
@@ -93,10 +93,10 @@ console.log(items);
 
 
 // // /// Otra de las ventajas de querySelector puedo ser mas espefico con las etiquetas y clases
- const etilist =document.querySelector('div.row>ul.list-group>li.list-group-item');
-  console.log(etilist);
+//  const etilist =document.querySelector('div.row>ul.list-group>li.list-group-item');
+//   console.log(etilist);
 
-  etilist.style.backgroundColor = "blue";
+//   etilist.style.backgroundColor = "blue";
 // // //Quiero el primer elemento li que se encuentre en la list-group y esta lista se encuentra en div con clase row
 
 
@@ -105,28 +105,28 @@ console.log(items);
 // // console.log(itemms); //vamos a tener la lista de elementos 
 
 // // // //Quiero retonar todos los elementos par 
-const itms = document.querySelectorAll('li:nth-child(odd)'); 
- for(var i=0; i<itms.length; i++){
- let todos = itms[i];
-   todos.style.background ='blue';//todos los elementos par de mi lista van a estar en rojo
- }                                          // (odd) es par 
+// const itms = document.querySelectorAll('li:nth-child(odd)'); 
+//  for(var i=0; i<itms.length; i++){
+//  let todos = itms[i];
+//    todos.style.background ='blue';//todos los elementos par de mi lista van a estar en rojo
+//  }                                          // (odd) es par 
 // // //si quiero los elementos impares ('li:nth-child(even)')
 
 
 // // //Los elementos puede poseer padres, hijos y hermanos 
 
- const listt = document.querySelector('ul');
-  console.log(listt.childElementCount); //va a leer a los elementos
+//  const listt = document.querySelector('ul');
+//   console.log(listt.childElementCount); //va a leer a los elementos
 // // // //Si queremos obtener el listado hijo 
- console.log(listt.children); //un listado del elemento , podemos iterarlo
+//  console.log(listt.children); //un listado del elemento , podemos iterarlo
 
 // // // //puedo iterar pasar por cada elemento
- for(var i =0; i < listt.children.length; i++){
-    console.log(listt.children[i]);  
- }//de igual forma podemos acceder mediante un indice [] 
+//  for(var i =0; i < listt.children.length; i++){
+//     console.log(listt.children[i]);  
+//  }//de igual forma podemos acceder mediante un indice [] 
 // // // //tambien se puede trabajar a los elementos por indice 
-console.log(listt.children[0]);
-listt.style.color='pink';
+// console.log(listt.children[0]);
+// listt.style.color='pink';
 
 // // // //Si queremos poder acceder al primer hijo y tambien los podemos leer con .innerHTML
  //console.log(listt.firstElementChild); //
@@ -157,28 +157,30 @@ listt.style.color='pink';
 
 
 
- const elementos = document.getElementsByTagNameNS('http://www.w3.org/2000/svg', 'rect');
- for (let i = 0; i < elementos.length; i++) {
-   elementos[i].setAttribute('width', '100');
-  }
+//  const elementos = document.getElementsByTagNameNS('http://www.w3.org/2000/svg', 'rect');
+//  for (let i = 0; i < elementos.length; i++) {
+//    elementos[i].setAttribute('width', '100');
+//   }
 
 
 //Agregar imagen con mi querySelector de parrafo por id 
-const pid =document.getElementById('pid');
+// const pid =document.getElementById('pid');
 
 
- const img = document.createElement('img');
-img.setAttribute('src', 'https://i.pinimg.com/originals/8b/02/40/8b02409f975c98c89e15bc089e3bd289.gif');
- console.log(img);
+//  const img = document.createElement('img');
+// img.setAttribute('src', 'https://i.pinimg.com/originals/8b/02/40/8b02409f975c98c89e15bc089e3bd289.gif');
+//  console.log(img);
+
+// // pid remplaza por la etiqueta imagen 
+//  pid.replaceWith(img);
 
 
- pid.replaceWith(img);
 
-const boton = document.getElementById('miBoton');
+// const boton = document.getElementById('miBoton');
 
- boton.addEventListener('click', () => {
- console.log('El usuario hizo clic en el botón');
- });
+//  boton.addEventListener('click', () => {
+//  console.log('El usuario hizo clic en el botón');
+//  });
 
 
 // // /// keyboard.events
